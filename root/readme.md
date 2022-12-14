@@ -6,9 +6,12 @@
 root/
     images
     pages
+        sobre.html
     samples/
         test
     src/ 
         css
     index.html
     readme.md
+
+### Resolução de tela: 1920x1080
