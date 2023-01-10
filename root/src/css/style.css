@@ -1,0 +1,112 @@
+/* CSS STYLES */
+h2 {
+    color: rgb(11, 56, 204);
+}
+div.logo {
+    width: 30vw;
+    text-align: left;
+    margin-bottom: 12px;
+    padding: 0.5rem;
+    background-color: #000;
+    color:white;
+    min-width: 350px;
+}
+div.logo span{
+    font-family: "Lato", sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.h2Color {
+    color: cadetblue;
+    text-align: left;
+    /*direction:rtl;
+   unicode-bidi: bidi-override;*/
+    font-family: "Lato", sans-serif;
+   
+}
+article#pratos p {
+    color: #999;
+    
+}
+article#pratos table td p {
+    color: #000;
+    
+}
+article#NossosPratos table td h3 {
+        font-family: "Lato", sans-serif;
+
+}
+input[type="radio"] {
+    /*mudar a cor do checked*/
+    accent-color: blue;
+}
+input[type="checkbox"]:checked + span {
+    /*mudar a cor da fonte das opções quando marcada*/
+    color: blue;
+}
+header img {
+    vertical-align: middle;
+}
+header span {
+    text-transform: uppercase; /* alterar a caixa das letras(altas, baixas etc.)*/
+}
+nav a {
+    text-decoration: none;
+    text-decoration-color: black;
+    font-family: "Lato", sans-serif;
+    font-size: 1.4rem;
+
+}
+nav a:hover/*style ao colocar o mouse em cima*/ {
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+p {
+    text-align: justify;
+    text-indent: 1.3rem; /*espaçamento do primeiro parágrafo*/
+    letter-spacing: 0.03rem; /*espaçamento das letras*/
+    word-spacing: 0.03rem; /*espaçamento das palavras*/
+    line-height: 1.4rem; /*espaçamentop das linhas*/
+}
+/*p::first-letter {
+    /*alterar o tamanho da primeira letra do parágrafo
+    font-size: 1.5rem;
+}*/
+h2 + span {
+    font-size: 0.9rem;
+    color: brown;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*header > img {
+    /*filter:invert(100);*/
+
+
+textarea {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+}
+
+header p.lobster{
+    font-size:0.9rem;
+    font-family: "Lato", sans-serif;
+            text-transform: uppercase;  
+                padding: 1%;
+text-align: center;
+background-color: #000;
+    color:white;
+}
+
+body form {
+font-family: "Lato", sans-serif;
+font-size: 1.0rem;
+ letter-spacing: 0.03rem;
+ line-height: 1.8rem;
+     padding: 0 0 0 0;
+
+ 
+}
