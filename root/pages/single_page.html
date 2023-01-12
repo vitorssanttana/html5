@@ -13,26 +13,6 @@
             rel="stylesheet"
         />
     </head>
-    <style>
-        body {
-            width: 80%;
-            margin: auto;
-            font-size: 1.3rem;
-            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
-                serif;
-            line-height: 1.3rem;
-            border: 1px dashed #ccc;
-            padding: 10px;
-        }
-        header * {
-            font-size: 1.5rem;
-            font-weight: 700;
-        }
-        select {
-            font-size: 0.88rem;
-        }
-     
-    </style>
     <body>
         <header id="home">
             <div class="logo">
@@ -48,19 +28,18 @@
             </div>
 
             <div class="slogan">
-                <img
-                    src="/html5/root/images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg"
-                    alt=""
-                    style="width: 100%"
-                />
+                <picture>
+                    <source media="(max-width:750px)" srcset="/html5/root/images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-redimensionado.jpg">  
+                    <img src="/html5/root/images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg">
+                </picture>
                 <p class="lobster">O melhor lugar para seu melhor momento!</p>
             </div>
             <div class="links">
             <nav>
                 <ul>
                     <li>
-                        <a href="#Sobre">Sobre Nós</a> |
-                        <a href="#NossosPratos">Nossos Pratos</a> |
+                        <a href="#Sobre">Sobre Nós</a> 
+                        <a href="#NossosPratos">Nossos Pratos</a> 
                         <a href="#Reservas">Faça sua Reserva</a>
                     </li>
                 </ul>
