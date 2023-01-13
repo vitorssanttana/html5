@@ -12,8 +12,10 @@
             href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="/html5/root/fontawesome/css/all.min.css" />
     </head>
     <body>
+        <div class="navPos"></div>
         <header id="home">
             <div class="logo">
                 <a href="#home>">
@@ -29,21 +31,28 @@
 
             <div class="slogan">
                 <picture>
-                    <source media="(max-width:750px)" srcset="/html5/root/images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-redimensionado.jpg">  
-                    <img src="/html5/root/images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg">
+                    <source
+                        media="(max-width:750px)"
+                        srcset="
+                            /html5/root/images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-redimensionado.jpg
+                        "
+                    />
+                    <img
+                        src="/html5/root/images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg"
+                    />
                 </picture>
                 <p class="lobster">O melhor lugar para seu melhor momento!</p>
             </div>
             <div class="links">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#Sobre">Sobre Nós</a> 
-                        <a href="#NossosPratos">Nossos Pratos</a> 
-                        <a href="#Reservas">Faça sua Reserva</a>
-                    </li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#Sobre">Sobre Nós</a>
+                            <a href="#NossosPratos">Nossos Pratos</a>
+                            <a href="#Reservas">Faça sua Reserva</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <main>
@@ -92,6 +101,10 @@
                         temporibus illum error minima pariatur. Ullam, id.
                     </p>
                 </article>
+                <div class="navup">
+                <a href="#home"><i class="fa-solid fa-0.5x fa-arrow-up"></i></a>
+                
+            </div>
                 <article id="NossosPratos">
                     <h2 class="h2Color">Aprecie nossos pratos especiais</h2>
                     <span>Uma infinidade de sabores</span>
@@ -160,6 +173,10 @@
                         </tr>
                     </table>
                 </article>
+                 <div class="navup">
+                <a href="#home"><i class="fa-solid fa-0.5x fa-arrow-up"></i></a>
+                
+            </div>
                 <article id="Reservas">
                     <h2 class="h2Color">
                         Reserve nosso espaço para o seu aniversário
@@ -351,26 +368,12 @@
                     <td width="50%">
                         <p>nossorestaurante1986@email.com</p>
                         <p>+55 7599173-1175</p>
-                        <img
-                            src="/html5/root/images/facebook.png"
-                            alt=""
-                            width="40"
-                        />
-                        <img
-                            src="/html5/root/images/instagram.png"
-                            alt=""
-                            width="40"
-                        />
-                        <img
-                            src="/html5/root/images/linkedin.png"
-                            alt=""
-                            width="40"
-                        />
-                        <img
-                            src="/html5/root/images/whatsapp.png"
-                            alt=""
-                            width="40"
-                        />
+                        <div class="icons">
+                        <i class="fa-brands fa-2x fa-facebook-f"></i>
+                        <i class="fa-brands fa-2x fa-instagram"></i>
+                        <i class="fa-brands fa-2x fa-linkedin"></i>
+                        <i class="fa-brands fa-2x fa-whatsapp"></i>
+                        </div>
                     </td>
                     <td width="50%">
                         <form action="" method="post">
