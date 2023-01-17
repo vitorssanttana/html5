@@ -1,0 +1,52 @@
+div.img-div{
+    border: 2px solid rgb(116, 116, 116);
+    min-height: 70vh;
+    padding: 1%;
+    display:flex;
+    flex-direction: row; /*row=linha column=coluna*/
+    flex-wrap: wrap; /*quebra de linha*/
+    justify-content: space-between; /*distribuir horizontalmente*/
+   /* align-content: flex-start; /*alinha/ distribuir verticalmente*/
+    row-gap: 1rem; /*espaçamento linha*/
+    column-gap: 1rem;/*espaçamento coluna*/
+    align-items: center; /*alinhar no meio do objeto horizontalmente*/
+    counter-reset: count-div;
+
+}
+div.img-div div{
+width: 20%;
+position: relative;
+/*border:1px black solid;*/
+
+}
+div.img-div div img{
+    width: 100%;
+}
+div.img-div div:nth-child(2){ /*para selecionar uma imagem ou item específica*/
+    align-self: center;
+    flex-grow: 2;
+}
+div.img-div div i::before{
+    counter-increment: count-div;
+    content:counter(count-div);
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    top:40%;
+}
+div.img-div div:nth-of-type(1){
+    order: 1;
+
+}
+div.img-div div:nth-of-type(2){
+    order: 2;
+
+}div.img-div div:nth-of-type(3){
+    order: 3;
+
+}div.img-div div:nth-of-type(4){
+    order: 4;
+
+}

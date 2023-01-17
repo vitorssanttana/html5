@@ -15,8 +15,20 @@
         <link rel="stylesheet" href="/html5/root/fontawesome/css/all.min.css" />
     </head>
     <body>
-        <div class="navPos"></div>
         <header id="home">
+            <div class="navPos">
+                <ul>
+                    <li>
+                        <a href="#Sobre"><i class="fa-solid fa-star"></i></a>
+                        <a href="#NossosPratos"
+                            ><i class="fa-solid fa-utensils"></i
+                        ></a>
+                        <a href="#Reservas"
+                            ><i class="fa-solid fa-calendar-days"></i
+                        ></a>
+                    </li>
+                </ul>
+            </div>
             <div class="logo">
                 <a href="#home>">
                     <img
@@ -43,18 +55,16 @@
                 </picture>
                 <p class="lobster">O melhor lugar para seu melhor momento!</p>
             </div>
-            <div class="links">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#Sobre">Sobre Nós</a>
-                            <a href="#NossosPratos">Nossos Pratos</a>
-                            <a href="#Reservas">Faça sua Reserva</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
         </header>
+        <nav class="links">
+            <ul>
+                <li>
+                    <a href="#Sobre">Sobre Nós</a>
+                    <a href="#NossosPratos">Nossos Pratos</a>
+                    <a href="#Reservas">Faça sua Reserva</a>
+                </li>
+            </ul>
+        </nav>
         <main>
             <section>
                 <article id="Sobre">
@@ -72,18 +82,24 @@
                         quia ut officiis impedit debitis qui, vel cum similique
                         temporibus possimus quo? Modi, dolores quidem.
                     </p>
-                    <img
-                        width="49%"
-                        src="../images/here-take-a-look-at-our-menu.jpg"
-                        alt="Conheça nosso menu"
-                        title="Conheça nosso menu"
-                    />
-                    <img
-                        width="49%"
-                        src="/html5/root/images/chef-939437_1920.jpg"
-                        alt="Conheça nosso menu"
-                        title="Conheça nosso menu"
-                    />
+                    <div class="container01">
+                        <div>
+                            <img
+                                width="100%"
+                                src="../images/here-take-a-look-at-our-menu.jpg"
+                                alt="Conheça nosso menu"
+                                title="Conheça nosso menu"
+                            />
+                        </div>
+                        <div>
+                            <img
+                                width="100%"
+                                src="/html5/root/images/chef-939437_1920.jpg"
+                                alt="Conheça nosso menu"
+                                title="Conheça nosso menu"
+                            />
+                        </div>
+                    </div>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
                         elit. Aliquam accusamus voluptatum consequuntur eaque
@@ -102,9 +118,10 @@
                     </p>
                 </article>
                 <div class="navup">
-                <a href="#home"><i class="fa-solid fa-0.5x fa-arrow-up"></i></a>
-                
-            </div>
+                    <a href="#home"
+                        ><i class="fa-solid fa-0.5x fa-arrow-up"></i
+                    ></a>
+                </div>
                 <article id="NossosPratos">
                     <h2 class="h2Color">Aprecie nossos pratos especiais</h2>
                     <span>Uma infinidade de sabores</span>
@@ -118,65 +135,57 @@
                         assumenda suscipit deserunt ea, libero distinctio porro
                         dignissimos in?
                     </p>
-                    <table>
-                        <tr>
-                            <td width="25%">
+                        <div class="container02">
+                            <div width="25%">
                                 <img
                                     width="100%"
                                     src="/html5/root/images/salmon-1312372.jpg"
                                     alt=""
                                 />
-                            </td>
-                            <td>
+                            </div>
+                            <div>
                                 <h3>Salmão grelhado</h3>
                                 <p>R$80,00</p>
                                 <p>No almoço</p>
-                            </td>
-                            <td width="25%">
+                            </div>
+                            <div width="25%">
                                 <img
                                     width="100%"
                                     src="/html5/root/images/authentic-italian-pasta.jpg"
                                     alt=""
                                 />
-                            </td>
-                            <td>
+                            </div>
+                            <div>
                                 <h3>Spaghetti ao molho bolonhesa</h3>
                                 <p>R$70,00</p>
                                 <p>No almoço</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="25%">
+                            </div>
+                            <div width="25%">
                                 <img
                                     width="100%"
                                     src="/html5/root/images/pizza-pepperoni-on-the-table.jpg"
                                     alt=""
                                 />
-                            </td>
-                            <td>
+                            </div>
+                            <div>
                                 <h3>Pizza Pepperoni</h3>
                                 <p>R$54,00</p>
                                 <p>A noite com os amigos</p>
-                            </td>
-                            <td width="25%">
+                            </div>
+                            <div width="25%">
                                 <img
                                     width="100%"
                                     src="/html5/root/images/frutas-e-vegetais.jpg"
                                     alt=""
                                 />
-                            </td>
-                            <td>
+                            </div>
+                            <div>
                                 <h3>Espeto de vegetais</h3>
                                 <p>R$39,00</p>
                                 <p>Aos domingos</p>
-                            </td>
-                        </tr>
-                    </table>
+                            </div>
+                        </div>
                 </article>
-                 <div class="navup">
-                <a href="#home"><i class="fa-solid fa-0.5x fa-arrow-up"></i></a>
-                
-            </div>
                 <article id="Reservas">
                     <h2 class="h2Color">
                         Reserve nosso espaço para o seu aniversário
@@ -359,6 +368,11 @@
                         </fieldset>
                     </form>
                 </article>
+                <div class="navup">
+                    <a href="#home"
+                        ><i class="fa-solid fa-0.5x fa-arrow-up"></i
+                    ></a>
+                </div>
             </section>
         </main>
         <hr />
@@ -369,10 +383,10 @@
                         <p>nossorestaurante1986@email.com</p>
                         <p>+55 7599173-1175</p>
                         <div class="icons">
-                        <i class="fa-brands fa-2x fa-facebook-f"></i>
-                        <i class="fa-brands fa-2x fa-instagram"></i>
-                        <i class="fa-brands fa-2x fa-linkedin"></i>
-                        <i class="fa-brands fa-2x fa-whatsapp"></i>
+                            <i class="fa-brands fa-2x fa-facebook-f"></i>
+                            <i class="fa-brands fa-2x fa-instagram"></i>
+                            <i class="fa-brands fa-2x fa-linkedin"></i>
+                            <i class="fa-brands fa-2x fa-whatsapp"></i>
                         </div>
                     </td>
                     <td width="50%">
