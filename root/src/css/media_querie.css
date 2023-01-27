@@ -1,0 +1,130 @@
+body{
+    overflow: hidden;
+}
+aside{
+    position: absolute;
+    right: -20vw;
+    border-radius: 50%;
+    width: 50%;
+    height: 80vh;
+    background-color: rgba(226,236,215,0.4);    
+    bottom: 30%;
+
+}
+.hb{
+    display: none;
+}
+.hb img{
+    width: 10vw;
+}
+.divulga{
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    width: 20vh;
+}
+* {
+    font-size: cal(0.5rem+1vw);
+}
+article{
+    height: 100vh;
+    overflow: hidden;
+    position: relative; 
+}
+nav {
+    background-color: #f8f8f8;
+    padding: 5px 0;
+    margin: 20px 0;
+}
+nav ul {
+    list-style-type: style none;
+}
+nav ul li {
+    display: inline-block;
+}
+footer{
+background-color: #f8f8f8;
+padding: 1%;
+}
+footer div{
+margin: 20px 0;
+}
+
+.logo{
+width: 40%;
+}
+.logo img{
+width: 10%;
+vertical-align: middle;
+padding-bottom: 15px;
+}
+.logo span{
+background-color: #ce7c00;
+color: #ffffff;
+padding: 0.8rem;
+border-radius: 0 22px 0 22px;
+font-size: 1.3rem;
+text-transform: uppercase;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight:bold;
+
+}
+.box01 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    flex-direction: row;
+}
+.box01 img {
+    width: 100%;
+}
+.box01 div {
+    width: 30%;
+}
+.btn{
+border: none;
+padding: 15px 4vw;
+background-color: #ce7c00;
+margin:20px 1.8vw;
+color: #ffffff;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-transform: uppercase;
+font-weight:bold;
+border-radius: 12px;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+@media (max-width:415px) and (orientation:portrait){
+    aside{
+        display: none;
+    }
+    .logo span{
+        display: block;
+    }
+    .logo img {
+        width: 50%;
+    }
+    nav ul{
+        display: none;   
+    }
+    .hb {
+        position: absolute;
+        top: 1vw;
+        right: 1vw;
+        display: block;
+    }
+    .box01 {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .box01 div {
+    width: 100%;
+}
+}
+@media(max-width:916px) and (orientation:landscape){
+    .divulga div p{
+        color:#ce7c00;
+    }
+}

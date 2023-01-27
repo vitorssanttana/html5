@@ -163,3 +163,91 @@ Mapeados para pixels
 > margin:0(todos os lados)
 > margin:0 0 (top/ bottom/ right/ left)
 
+# Responsive Design
+
+>Mobile (portrait)
+- 320
+- 375
+- 414
+
+>Mobile (landscape)
+- 568
+- 667
+- 736
+- 812
+
+>Tablet (portrait)
+- 768
+- 834
+  
+> Tablet (landscape)
+- 1024
+- 1112
+
+>Laptop
+- 1366
+- 1440
+  
+>Desktop
+- 1680
+- 1920
+- 2048
+---
+## FLuid Grids
+Linhas e colunas que se ajustam mediante os breakpoints
+
+---
+## Breakpoints
+Pontos de tamanho de tela especificados no css associados a janela de visualização (@media)
+
+---
+## Flexible Images
+Verificar o redimensionamento das imagens que é feito em porcentagem.
+
+---
+## Media Querie
+Especificações CSS que contém as informações sobre a janela de visualização
+
+---
+## Viewport
+        <meta name="viewport
+        content="width=device-width,
+        initial-scale=1.0"/>
+
+---
+## Overflow
+Elementos de tela que estão fora do layout ou parcialmente fora do layout
+
+---
+## Fixed Size
+Utilizam pixels como largura ou altura.
+
+---
+## Relative Size
+Utilizam medidas como o rem ou %
+
+---
+
+## Mobile First
+Técnica de layout que primeiro analisa telas menores
+
+--- 
+## Hamburguer Menu
+
+---
+# Box Sizing 
+## Deixar box em tamanho padrão)
+
+*{
+    box-sizing:border:box;
+}
+
+# Float 
+## Auxilar a trazer elementos de bloco para uma forma de linha)
+
+<div>
+<img style="float:left;padding:0 12px 0 0" src="/html5/root/images/frutas-e-vegetais.jpgbaked-salmon-garnished-with-asparagus-and-tomatoes-with-redimensionado.jpg" width="60%"/>
+<p>
+asduhasuid hasipdu haskjdh askl jdhalk sjhdlakjs hfiuahsdf is hfklasjd h aklsjdhf askdjfh slkdjfh aslkdj askldjfh askldjf 
+</p>
+</div>

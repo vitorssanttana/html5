@@ -1,0 +1,15 @@
+div.box01{
+-webkit-mask-image:url(/html5/root/images/png/caixa-macas.png);
+mask-image:url(/html5/root/images/png/caixa-macas.png);
+-webkit-mask-repeat:repeat;
+mask-repeat: repeat;
+-webkit-mask-position:center;
+mask-position: center;
+mask-size: 30%;
+-webkit-mask-size:30%;
+width: 50%;
+
+}
+div.box01 img{
+    width: 100%;
+}

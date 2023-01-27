@@ -1,0 +1,26 @@
+:root{
+    --m1:0 auto;
+    --corPadrao:aqua;
+}
+div#banner{
+    background-color: beige;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: calc(100% - 100px);
+    left: 50px; 
+    top: 40%;
+}
+h1{
+    font-size: calc(1.5rem + 2vw);
+   
+}
+div#banner_02{
+    background-color: rgb(aqua);
+    text-align: center;
+    padding: 10px 0;
+    width: min(50%, 300px);
+    margin: var(--m1)
+    
+    
+}
